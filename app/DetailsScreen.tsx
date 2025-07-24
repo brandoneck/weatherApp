@@ -47,7 +47,7 @@ const DetailsScreen = () => {
   const today = new Date();
 
   const getDateName = (day: number): string => {
-    var newDate = moment(today, "DD-MM-YYYY").add("days", day);
+    var newDate = moment(today, "DD-MM-YYYY").add(day, "days");
     return newDate.format("dddd-DD-MM-YYYY");
   };
 
