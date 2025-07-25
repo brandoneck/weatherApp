@@ -137,10 +137,11 @@ const styleDetails = StyleSheet.create({
   container: {
     padding: 20,
     flex: 1,
+    marginBottom: 20,
   },
   detailsView: {
     alignItems: "center",
-    gap: 12,
+    // gap: 12,
   },
   daysView: {
     marginTop: 20,
